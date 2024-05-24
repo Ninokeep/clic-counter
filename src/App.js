@@ -15,7 +15,7 @@ class App extends Component {
       <Provider store={store}>
         <Router>
           <div className="app_container">
-            <h1>Clic Counter </h1>
+            <h1>Click Counter </h1>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route component={() => <h2>Page introuvable</h2>} />
