@@ -1,0 +1,17 @@
+html,
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "JetBrains Mono", monospace;
+}
+.app_container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
